@@ -17,6 +17,13 @@ public class Application {
 
         return  "Hello";
     }
+
+
+    @RequestMapping("/news.do")
+    public String showsAction(){
+
+        return  "Hello";
+    }
 }
 
 
