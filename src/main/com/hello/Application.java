@@ -24,6 +24,13 @@ public class Application {
 
         return  "Hello";
     }
+
+
+    @RequestMapping("/happy.do")
+    public String happyAction(){
+
+        return  "Hello";
+    }
 }
 
 
